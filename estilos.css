@@ -1,3 +1,19 @@
 h1 {
-    color: #42c46d;
+    color: #faf7f7;
+    background-color: rgb(15, 15, 15);
+}
+    h2 {
+        color: #faf7f7;
+        background-color: rgb(15, 15, 15);
+    
+}
+body {
+    background-color: rgb(191, 248, 229);
+   text-align: center;
+   
+}
+.centrar {
+    text-align: left;
+	display: inline-block;
+
 }
