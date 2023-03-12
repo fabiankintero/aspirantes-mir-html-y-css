@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -55,10 +55,5 @@ select {
 @media(max-width:500px) {
     form {
         width: 100%;
-    }
-}
-@media(max-width:500px) {
-    form {
-        width: 300px
     }
 }
