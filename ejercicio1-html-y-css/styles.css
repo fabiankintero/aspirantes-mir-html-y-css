@@ -1,51 +1,64 @@
-*{ box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 body {
-font-family:Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 form {
     width: 300px;
-    background: linear-gradient(#bd09b7, #6b4cf5 );
+    background: linear-gradient(#bd09b7, #6b4cf5);
     padding: 20px;
     margin: auto;
     border-radius: 20px;
-    box-shadow: 5px 5px 15px #333;}
-form h1{
-    margin: o o 20px;
-    color: white;
-    text-align:left;
+    box-shadow: 5px 5px 15px #333;
 }
-form .entradas {  
-   padding: 7px;
-   color: white;
-   text-align:left;   
+
+form h1 {
+    margin: 0 0 20px;
+    color: white;
+    text-align: left;
+}
+
+form .entradas {
+    padding: 7px;
+    color: white;
+    text-align: left;
 }
 
 form .boton {
-    
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 15px;
-padding-right: 15px;
-text-align: right;
-color: black;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right;
+    color: black;
+}
+
+form .boton button[type=submit] {
+    width: 5rem;
+    padding: 5px;
+    border-radius: 9px;
 }
 
 
-    
-input[type=email], input[type=password],select{
-        width: 100%;
-        padding: 7px;
-        color: white;
-    }
-    
-@media(min-width:500px){
-   form {
-    width:100%}
+input[type=email],
+input[type=password],
+select {
+    width: 100%;
+    padding: 7px;
 }
-@media(max-width:500px){
+
+@media(max-width:500px) {
     form {
-     width:300px}
- }
+        width: 100%;
+    }
+}
+@media(max-width:500px) {
+    form {
+        width: 300px
+    }
+}
